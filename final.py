@@ -1,24 +1,4 @@
-import numpy as np
-import plotly.express as px
-import yfinance as yf
-import datetime
-import pandas as pd
-import datetime
-import dash
-from dash import dcc, html
-from dash.dependencies import Input, Output
-import plotly.express as px
-import plotly.graph_objects as go
-import pyfolio as pf
-import warnings
-warnings.filterwarnings("ignore")
-import pyfolio as pf
-from pypfopt import risk_models
-from pypfopt import expected_returns
-from pypfopt.efficient_frontier import EfficientFrontier
-import matplotlib.pyplot as pl
 
-#Github
 #lista de acciones a importar de las empresas que se dedican a consumo masivo y produccion industrial
 stocks=['NESN.SW','PG','KA','GE','ETR','CAT']
 
